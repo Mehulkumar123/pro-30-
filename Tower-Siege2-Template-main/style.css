@@ -1,0 +1,61 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: dock11;
+  src:url(heavy_dock11.otf);
+}
+
+.txt {
+  position: relative;
+  font-size: 50px;
+  font-family: dock11;
+  letter-spacing: 5px;
+  color:rgb(207,207,207);
+}
+
+.txt {
+    text-shadow: 
+    /*3d layers*/
+    0px 0px 1px rgb(167,167,167),
+    0px 1px 1px rgb(167,167,167),
+    0px 2px 1px rgb(167,167,167);
+  }
+
+.txt {
+      text-shadow: 
+      /*3D layers*/
+      0px 0px 1px rgb(167,167,167),
+      0px 1px 1px rgb(167,167,167),
+      0px 2px 1px rgb(167,167,167),
+
+      1px 1px 1px rgb(167,167,167),
+      1px 2px 1px rgb(167,167,167),
+      1px 3px 1px rgb(167,167,167),
+
+      2px 2px 1px rgb(167,167,167),
+      2px 3px 1px rgb(167,167,167),
+      2px 4px 1px rgb(167,167,167);
+    }
+
+.txt::after {
+      font-size: 180px;
+      letter-spacing: 5px;
+      font-family: dock11;
+      position: absolute;
+      top:0;
+      left:0;
+    }
+
+.txt {
+      position: relative;
+    }
+    .txt::after {
+      text-shadow: 0px 0px 100px rgba(11,124,199,0.5);
+}
+
